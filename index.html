@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first program page</title>
+    <link rel="stylesheet" href="style.css">
 
     <style>
         table {
@@ -20,98 +21,13 @@
             color: black;
         }
 
-        .image{
+        .image {
             text-align: center;
         }
 
         a[target] {
-  background-color: yellow;
+            background-color: yellow;
         }
-
-
-        p {
-    font-size: x-large;
-}
-
-p1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-p2 {
-    font-weight: 100;
-
-}
-
-p3 {
-    text-decoration: none;
-}
-
-.static {
-    position: static;
-    border: 3px solid #73AD21;
-}
-
-.relative {
-    position: relative;
-    left: 30px;
-    text-align: center;
-    border: 3px solid orange;
-}
-
-.fixed {
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    border: 3px solid yellow;
-    background-color: black;
-    color: white;
-}
-
-.relative1 {
-    position: relative;
-    width: 400px;
-    height: 200px;
-    border: 3px solid black;
-    text-align: center;
-}
-
-.absolute {
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 200px;
-    height: 100px;
-    border: 3px solid brown;
-    text-align: center;
-}
-
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    background-color: #cae8ca;
-    border: 2px solid #4CAF50;
-    text-align: center;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </style>
 </head>
 
@@ -135,41 +51,43 @@ p3 {
 
 
     <h2>CSS [attribute] Selector</h2>
-<p>The links with a target attribute gets a yellow background:</p>
+    <p>The links with a target attribute gets a yellow background:</p>
 
-<a href="https://www.w3schools.com">w3schools.com</a>
-<a href="http://www.disney.com" target="_blank">disney.com</a>
-<a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
-<hr></hr>
+    <a href="https://www.w3schools.com">w3schools.com</a>
+    <a href="http://www.disney.com" target="_blank">disney.com</a>
+    <a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+    <hr>
+    </hr>
 
-<div class="static">
-    This div element has position : static;
-</div>
-<br>
-<div class="relative">
-    This is div  position : relative;
+    <div class="static">
+        This div element has position : static;
+    </div>
+    <br>
+    <div class="relative">
+        This is div position : relative;
     </div>
     <br>
 
     <div class="fixed">
         Hello Simple-Task !
+    </div>
+    <br>
+
+    <div class="relative1">This div element has position: relative;
+        <div class="absolute"><b>This div element has position: absolute</b>
+
         </div>
-        <br>
+    </div>
+    <br>
 
-        <div class="relative1">This div element has position: relative;
-            <div class="absolute"><b>This div element has position: absolute</b>
+    <div class="sticky">
+        I am Nituu!
+    </div>
 
-            </div>
-          </div>
-          <br>
 
-          <div class="sticky">
-            I am Nituu!
-        </div>
-        
-    
     <!--this is my p tage-->
-    <hr></hr>
+    <hr>
+    </hr>
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet voluptatem amet mollitia cum laudantium ipsum
         quisquam ex error. Incidunt laboriosam ratione hic ullam nostrum distinctio veritatis, voluptas ut facere non!
@@ -182,8 +100,8 @@ p3 {
     <div class="image">
 
 
-    <img src="https://img.freepik.com/free-photo/texture-background-with-different-exotic-leaves-generative-al_169016-28564.jpg?w=1060&t=st=1705479711~exp=1705480311~hmac=7a9029cef8793e7028ee3006406e385fe4bf991486004e7a0d6d4b32dc570437"
-        height="300">
+        <img src="https://img.freepik.com/free-photo/texture-background-with-different-exotic-leaves-generative-al_169016-28564.jpg?w=1060&t=st=1705479711~exp=1705480311~hmac=7a9029cef8793e7028ee3006406e385fe4bf991486004e7a0d6d4b32dc570437"
+            height="300">
     </div>
 
     <hr>
@@ -202,7 +120,7 @@ p3 {
             <h1>My Name Is Nituu</h1>
             <p1>Good Aftnoon</p2>
                 <br>
-            <p2>Have A Beautifull Day</p2>
+                <p2>Have A Beautifull Day</p2>
         </header>
     </article>
 
@@ -213,7 +131,8 @@ p3 {
 
     <!--italic  tag-->
     <p><i>Hey my man,what's up!</i></p>
-    <hr></hr>
+    <hr>
+    </hr>
 
     <!--sub and super  tag-->
 
@@ -221,7 +140,8 @@ p3 {
             dolores culpa esse totam.</u><sub>Reprehenderit odit praesentium fuga adipisci nam repellat ex natus
             consequatur?</sub></p3>
 
-    <p4>Ipsum dolor sit, <sup>met consectetur adipisicing elit.</sup>Sunt non eaque veritatis consequuntur rem voluptatum
+    <p4>Ipsum dolor sit, <sup>met consectetur adipisicing elit.</sup>Sunt non eaque veritatis consequuntur rem
+        voluptatum
         dolores culpa esse totam.<sup>Reprehenderit odit praesentium fuga adipisci nam repellat ex natus
             consequatur?</sup></p4>
     <br></br>
